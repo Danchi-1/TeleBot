@@ -5,8 +5,8 @@ A small Telegram bot that:
 - can chat via an external LLM provider (e.g. Mistral through OpenRouter)
 
 ## Repository layout
-- `main.py` — bot entrypoint and handlers (image captioning + chat)
-- `.gitignore` — ignores environment files and test artifacts
+- `main.py`: bot entrypoint and handlers (image captioning + chat)
+- `.gitignore`: ignores environment files and test artifacts
 - (other helper files may be present in the folder)
 
 ## Requirements
