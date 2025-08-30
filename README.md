@@ -6,8 +6,7 @@ A small Telegram bot that:
 
 ## Repository layout
 - `main.py`: bot entrypoint and handlers (image captioning + chat)
-- `.gitignore`: ignores environment files and test artifacts
-- (other helper files may be present in the folder)
+- `requirements.txt`: required packages written out.
 
 ## Requirements
 - Python 3.8+
@@ -64,5 +63,3 @@ The bot will connect to Telegram using `TELEGRAM_BOT_TOKEN`. For chat features, 
 - Keep secrets out of version control (`.env` is in `.gitignore`).
 - Review `main.py` for any temporary debug prints and remove them before production.
 - Update handlers in `main.py` if you want separate routes for persona vs general messages.
-
-If you want, I can also create a `requirements.txt` or update `main.py` to include the safe `describe_image_sync` implementation
